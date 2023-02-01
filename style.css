@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 body{
     background-color: #E5E5E5;
@@ -16,6 +15,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    box-sizing: border-box;
     background: #fff;
     width: 1213px;
     height: 830px;
@@ -47,6 +47,8 @@ body{
 }
 ul{
     display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
 }
 ul li{
     list-style: none;
@@ -56,20 +58,32 @@ ul li a{
     text-decoration: none;
     border: 1px solid #ddd;
     border-radius: 10px;
+    
 }
 .new-user{
     color: #fff;
     background: #849FFF;
     border-radius: 6px;
+    
 }
 .col{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 16;
     background: #FBFCFF;
     border-radius: 16px;
-    
+    padding: 24px;
 }
 .col.user-2{
     border: 1px solid #BFC8E6;
     box-shadow: 0px 8px 23px rgba(218, 224, 249, 0.7);
 }
+.row{
+    box-sizing: border-box;
+    gap: 16px;
+
+}
+
 
 
